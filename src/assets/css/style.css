@@ -1,3 +1,33 @@
  .body {
       font-family: 'Inter', sans-serif;
     }
+.card-item {
+  border: none;
+  margin: 0;
+}
+
+.custom-position {
+  bottom: 27% !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+}
+
+@media screen and (min-width: 1400px) {
+  .custom-position {
+    bottom: 33% !important;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .custom-position {
+    bottom: 37% !important;
+  }
+}
+
+
+
+.custom-position-bottom {
+  top: -67% !important;
+  left: -100px !important;
+}
+
